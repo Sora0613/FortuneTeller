@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>今日の運勢 | 星詠み占い</title>
+  <meta name="description" content="あなたの今日の運勢をカードでひも解く">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="stars"></div>
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+<div class="orb orb-3"></div>
+
+<section id="result-page" class="screen active">
+  <div class="container">
+
+    <header class="result-header">
+      <p class="subtitle">— Today's Fortune —</p>
+      <h1 class="title">今日のあなたへ</h1>
+      <p class="hint-text">カードをタップして運勢を解き明かして</p>
+    </header>
+
+    <div id="cards-grid" class="cards-grid">
+      <!-- JS で生成 -->
+    </div>
+
+    <div class="result-footer">
+      <div class="divider"></div>
+      <a href="index.html" class="btn-secondary">もう一度占う</a>
+    </div>
+
+  </div>
+</section>
+
+<script src="js/data.js"></script>
+<script src="js/result.js"></script>
+</body>
+</html>
